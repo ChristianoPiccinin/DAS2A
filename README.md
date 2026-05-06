@@ -3,10 +3,7 @@
 Nosso objetivo é desenvolver uma Plataforma de Inteligência Operacional para a empresa *VendaMais Distribuidora Ltda.*, integrar os dados do ERP do cliente com serviços em nuvem e realizar a construção para visualização de um dashboard estratégico.
 
 ## Membros da equipe
-- Alexandre David de Mira Junior | [@alexsandrejunior](https://github.com/alexsandrejunior)
-- Ian Sergio Helfenberger | [@iansergio](https://github.com/iansergio)
-- Maria Eduarda Gomes Granza | [@mariagranza](https://github.com/mariagranza)
-- Pedro Hideki Morikawa | [@pedromorikawa](https://github.com/pedromorikawa)
+
 
 ## Estrutura de pastas
 ├── docs  
