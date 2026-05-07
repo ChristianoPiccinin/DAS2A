@@ -1,12 +1,14 @@
 import logging
 import azure.functions as func
 
+
+# Ponto de entrada do Function App.
+# Cada trigger é registrado como uma função independente.
 app = func.FunctionApp()
 
-@app.timer_trigger(schedule="0 */5 * * * *", arg_name="myTimer", run_on_startup=False,
-              use_monitor=False) 
-def timer_trigger_cicd(myTimer: func.TimerRequest) -> None:
-    if myTimer.past_due:
-        logging.info('The timer is past due!')
+# Importa triggers para registrar as functions no app
+from triggers import extract_trigger  # noqa: F401
+#from triggers import transform_trigger  # noqa: F401
+#from triggers import load_trigger  # noqa: F401
 
-    logging.info('Python timer trigger function executed.')
+logging.info("Azure Function App inicializado.")
