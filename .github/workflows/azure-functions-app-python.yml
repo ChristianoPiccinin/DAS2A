@@ -10,7 +10,7 @@ permissions:
 
 env:
   AZURE_FUNCTIONAPP_NAME: 'azfun-vendamais-erp-chris001'
-  PYTHON_VERSION: '3.12'
+  PYTHON_VERSION: '3.13'
 
 jobs:
   build-and-deploy:
