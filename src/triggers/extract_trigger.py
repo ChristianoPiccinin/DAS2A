@@ -2,7 +2,7 @@ import azure.functions as func
 import logging
 #from orchestrators.etl_orchestrator import ETLOrchestrator
 
-app = func.FunctionApp()
+app = func.Blueprint()
 
 
 @app.timer_trigger(schedule="0 0 6 * * *", arg_name="timer", run_on_startup=False)
