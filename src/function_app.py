@@ -11,4 +11,5 @@ from triggers import extract_trigger  # noqa: F401
 #from triggers import transform_trigger  # noqa: F401
 #from triggers import load_trigger  # noqa: F401
 
+app.register_functions(extract_trigger)
 logging.info("Azure Function App inicializado.")
